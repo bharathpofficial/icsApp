@@ -1,0 +1,7 @@
+#Tue Sep 24 18:49:35 IST 2024
+base.1=/home/windass/Documents/works/icsApp/android/app/build/intermediates/global_synthetics_dex/release/mergeReleaseGlobalSynthetics/classes.dex
+path.1=classes.dex
+base.0=/home/windass/Documents/works/icsApp/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

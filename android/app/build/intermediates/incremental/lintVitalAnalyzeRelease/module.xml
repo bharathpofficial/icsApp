@@ -1,0 +1,19 @@
+<lint-module
+    format="1"
+    dir="/home/windass/Documents/works/icsApp/android/app"
+    name=":app"
+    type="APP"
+    maven="icsApp:app:unspecified"
+    agpVersion="8.5.0"
+    buildFolder="build"
+    bootClassPath="/home/windass/Android/Sdk/platforms/android-34/android.jar:/home/windass/Android/Sdk/build-tools/34.0.0/core-lambda-stubs.jar"
+    javaSourceLevel="17"
+    compileTarget="android-34"
+    neverShrinking="true">
+  <lintOptions
+      abortOnError="true"
+      absolutePaths="true"
+      checkReleaseBuilds="true"
+      explainIssues="true"/>
+  <variant name="release"/>
+</lint-module>

@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.icsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] /home/windass/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+14        android:name="com.icsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] /home/windass/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] /home/windass/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.icsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] /home/windass/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] /home/windass/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:5:5-25:19
+20        android:name="com.icsapp.MainApplication"
+20-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:6:7-38
+21        android:allowBackup="false"
+21-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:10:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.9.0] /home/windass/.gradle/caches/8.8/transforms/ce4f5dec389711446a83e4dc2ffe53e3/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+23        android:extractNativeLibs="false"
+24        android:icon="@mipmap/ic_launcher"
+24-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:8:7-41
+25        android:label="@string/app_name"
+25-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:7:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:9:7-52
+27        android:supportsRtl="true"
+27-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:12:7-33
+28        android:theme="@style/AppTheme" >
+28-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:11:7-38
+29        <activity
+29-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:13:7-24:18
+30            android:name="com.icsapp.MainActivity"
+30-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:14:9-37
+31            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+31-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:16:9-118
+32            android:exported="true"
+32-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:19:9-32
+33            android:label="@string/app_name"
+33-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:15:9-41
+34            android:launchMode="singleTask"
+34-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:17:9-40
+35            android:windowSoftInputMode="adjustResize" >
+35-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:18:9-51
+36            <intent-filter>
+36-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:20:9-23:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:21:13-65
+37-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:21:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:22:13-73
+39-->/home/windass/Documents/works/icsApp/android/app/src/main/AndroidManifest.xml:22:23-70
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:8:9-16:20
+44            android:name="cl.json.RNShareFileProvider"
+44-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:9:13-55
+45            android:authorities="com.icsapp.rnshare.fileprovider"
+45-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:10:13-72
+46            android:exported="false"
+46-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:11:13-37
+47            android:grantUriPermissions="true" >
+47-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:12:13-47
+48            <meta-data
+48-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:13:13-15:64
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:14:17-67
+50                android:resource="@xml/share_download_paths" />
+50-->[:react-native-share] /home/windass/Documents/works/icsApp/node_modules/react-native-share/android/build/intermediates/merged_manifest/release/processReleaseManifest/AndroidManifest.xml:15:17-61
+51        </provider>
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] /home/windass/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] /home/windass/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+54            android:authorities="com.icsapp.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] /home/windass/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] /home/windass/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] /home/windass/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] /home/windass/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] /home/windass/.gradle/caches/8.8/transforms/7371c517d09178e5b3a6701c452d7bb8/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/windass/.gradle/caches/8.8/transforms/801ae63aa7ca7d1656b0fc5b53a5e7d4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/windass/.gradle/caches/8.8/transforms/801ae63aa7ca7d1656b0fc5b53a5e7d4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] /home/windass/.gradle/caches/8.8/transforms/801ae63aa7ca7d1656b0fc5b53a5e7d4/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+62        </provider>
+63
+64        <meta-data
+64-->[com.facebook.soloader:soloader:0.11.0] /home/windass/.gradle/caches/8.8/transforms/e24043839ca682ddfdc90d96ffeb4dab/transformed/soloader-0.11.0/AndroidManifest.xml:12:9-14:37
+65            android:name="com.facebook.soloader.enabled"
+65-->[com.facebook.soloader:soloader:0.11.0] /home/windass/.gradle/caches/8.8/transforms/e24043839ca682ddfdc90d96ffeb4dab/transformed/soloader-0.11.0/AndroidManifest.xml:13:13-57
+66            android:value="false" />
+66-->[com.facebook.soloader:soloader:0.11.0] /home/windass/.gradle/caches/8.8/transforms/e24043839ca682ddfdc90d96ffeb4dab/transformed/soloader-0.11.0/AndroidManifest.xml:14:13-34
+67    </application>
+68
+69</manifest>
