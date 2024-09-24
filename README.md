@@ -11,6 +11,13 @@ Key features of icsApp include:
 icsApp simplifies the process of scheduling and sharing events, making it an essential tool for professionals, event organizers, and anyone looking to streamline their calendar management. With its intuitive interface and robust functionality, icsApp is the go-to solution for creating and distributing calendar events on the go.
 
 ---
+
+# app interface
+| ![Light Mode](./images/image1.jpeg) | ![Dark Mode](./images/image2.jpeg) |
+|----------------------------------|----------------------------------|
+
+
+---
 # Building the APK for Your use
 
 Follow these simple steps to generate an APK for your React Native application:
