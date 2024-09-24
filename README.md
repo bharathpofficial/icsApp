@@ -1,3 +1,16 @@
+# icsApp
+icsApp is a powerful and user-friendly mobile application built with React Native for Android devices. This app specializes in generating ICS (iCalendar) files, allowing users to easily create and share calendar events across various platforms.
+
+Key features of icsApp include:
+- Seamless event creation with customizable fields for title, description, location, start time, and end time.
+- Automatic generation of standardized ICS files compatible with most calendar applications.
+- Precise time handling with support for different time zones, particularly optimized for Asia/Kolkata.
+- Efficient duration calculation for events, enhancing user convenience.
+- Modern Android compatibility, targeting the latest SDK versions for optimal performance and feature support.
+
+icsApp simplifies the process of scheduling and sharing events, making it an essential tool for professionals, event organizers, and anyone looking to streamline their calendar management. With its intuitive interface and robust functionality, icsApp is the go-to solution for creating and distributing calendar events on the go.
+
+---
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Getting Started
@@ -31,17 +44,6 @@ npm run android
 # OR using Yarn
 yarn android
 ```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
 This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
@@ -58,22 +60,3 @@ Now that you have successfully run the app, let's modify it.
 ## Congratulations! :tada:
 
 You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
